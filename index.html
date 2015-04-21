@@ -2,22 +2,177 @@
 layout: default
 ---
 
-<div class="home">
+<div class="container-fluid hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <img class="centered" src="images/talk.png" width="100%">
+        <img class="centered" src="images/app-icons.png" width="100%">
+        <h1>Text message, voice call, social & email apps <strong>for all ages</strong>.<br/>A little peace of mind for parents.
+         </h1>
+        <img class="centered" src="images/scroll.png" width="50">
+      </div>
+     <div class="col-md-2 "></div>   
+    </div>
+  </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="container-fluid app-showcase" style="overflow:hidden">
+  <div class="row">
+    <div class="col-md-12"><h1 class="white">Meet the Pryvy Apps</h1></div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-6 extra-padding-bottom">
+      <img class="centered" src="images/inphone-messages.png" width="90%">
+      <h2>Messages</h2>
+      <p><a href="https://itunes.apple.com/us/app/pryvy-messages+/id834047981?mt=8">Available at the App Store &#187;</a></p>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6 extra-padding-bottom">
+      <img class="centered" src="images/inphone-phone.png" width="90%">
+      <h2>Phone</h2>
+      <p><a href="https://itunes.apple.com/us/app/pryvy-phone+/id834044252?mt=8">Available at the App Store &#187;</a></p>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6 extra-padding-bottom">
+      <img class="centered" src="images/inphone-social.png" width="90%">
+      <h2>Social</h2>
+      <p>Coming soon to the App Store </p>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6 extra-padding-bottom">
+      <img class="centered" src="images/inphone-email.png" width="90%">
+      <h2>Email</h2>
+      <p>Works with any email app</p>
+    </div>
+  </div>
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="container-fluid how-it-works">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 clearfix">
+        <h1>Pryvy in a nutshell</h1>
+      </div>
+      <div class="col-md-12 clearfix">
+        <h3 class="our-goal">Our goal with Pryvy is to make it fast & simple for parents to keep their kids safe.</h3>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-4 how-to">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <img class="centered" src="images/signup.jpg" width="100px">
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <h5>Step one</h5>
+            <h2>Parents create an account<br/>for each family member</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4 how-to">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <img class="centered" src="images/download.jpg" width="100px">
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <h5>Step two</h5>
+            <h2>Kids & adults download<br/>the Pryvy apps</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4 how-to">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <img class="centered" src="images/approval.jpg" width="100px">
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <h5>Step three</h5>
+            <h2>Parents approve or deny <br/>all connections</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="container-fluid features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"><h1 class="white">Features</h1></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-6 extra-padding-bottom clearfix">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-3">
+            <img class="centered" src="images/security.png" width="100%">
+          </div>
+          <div class="col-md-8 col-sm-8 col-xs-9">
+            <h2>Security</h2>
+            <p>Parents can rest easy knowing their kids can not meet or exchange information with strangers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 extra-padding-bottom clearfix">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-3">
+            <img class="centered" src="images/locked.png" width="100%">
+          </div>
+          <div class="col-md-8 col-sm-8 col-xs-9">
+            <h2>Privacy</h2>
+            <p>Pryvy's social network is completely private, which means any thoughts or pictures your child shares will only ever be seen by parent-approved friends & family.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-6 extra-padding-bottom clearfix">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-3">
+            <img class="centered" src="images/groups.png" width="100%">
+          </div>
+          <div class="col-md-8 col-sm-8 col-xs-9">
+            <h2>Group communication</h2>
+            <p>Create a group for a sports team, class, scout troop or any other group for easy communication between group members - both adults & kids. <a href="groups.html">Learn more &#187;</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 extra-padding-bottom clearfix">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-3">
+            <img class="centered" src="images/no-bullies.png" width="100%">
+          </div>
+          <div class="col-md-8 col-sm-8 col-xs-9">
+            <h2>Cut off cyberbullies</h2>
+            <p>With just a few clicks parents can completely cut off cyberbullies, ensuring they can no longer communicate with their child on any Pryvy app.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="container-fluid groups">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12" >
+        <img src="images/groups/group-teaser.png" width="100%">
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h2>Are you a teacher, coach or scout leader?</h2>
+        <a href="groups.html">Learn about Pryvy Groups &#187;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid get-started">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"><h2>Sign up with Pryvy now:</h2>
+          <a class="button-green" href="https://app.pryvy.com/signup">I'm an adult</a>
+          <a class="button-gray" href="https://app.pryvy.com/signup/kids">I'm a kid</a>
+      </div>
+    </div>
+  </div>
 </div>
