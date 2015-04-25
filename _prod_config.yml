@@ -1,0 +1,5 @@
+# Site settings
+www_base_path: http://www.pryvy.com
+app_base_path: https://app.pryvy.com
+api_base_path: https://api.pryvy.com
+image_path: https://d1gdmj0r4mf4is.cloudfront.net/images
