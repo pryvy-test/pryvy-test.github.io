@@ -152,12 +152,46 @@ a.button-gray {
 	text-transform: none;
 }
 
+.hero{background: url('/images/bg.jpg') no-repeat   center center;
+background-size: auto 100% ;
+padding: 140px 0 50px 0;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px) { 
 .hero{background: url('/images/bg.jpg') no-repeat   center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-padding: 140px 0 50px 0;}
+padding: 140px 0 50px 0;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg.jpg', sizingMethod='scale')";}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media(min-width:768px) { 
+.hero{background: url('/images/bg.jpg') no-repeat   center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding: 140px 0 50px 0;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg.jpg', sizingMethod='scale')";}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media(min-width:1200px) { 
+.hero{background: url('/images/bg.jpg') no-repeat   center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding: 140px 0 50px 0;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg.jpg', sizingMethod='scale')";}
+}
 
 .navbar-brand {
 	padding: 8px;
