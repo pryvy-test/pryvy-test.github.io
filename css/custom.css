@@ -310,6 +310,13 @@ h3.our-goal {
 	}
 }
 
+.policy {
+	padding: 100px 0;
+}
+
+.policy h1 {
+	color:#555;
+}
 .features {
 	background-color: #67addf;
 	padding: 40px 0;
