@@ -1,0 +1,5 @@
+# Site settings
+www_base_path: 
+app_base_path: https://app.dev.pryvy.com
+api_base_path: https://api.dev.pryvy.com
+image_path: images
