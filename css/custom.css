@@ -5,17 +5,35 @@ body {
 
 h1 {
 	font-family: 'Signika', 'Open Sans', sans-serif;
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom:30px;
+	text-transform: uppercase;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+h1 {
+	font-family: 'Signika', 'Open Sans', sans-serif;
 	font-size: 44px;
 	font-weight: 600;
 	text-align: center;
 	margin-bottom:50px;
 	text-transform: uppercase;
-	color:#676767;
-}
+} }
 
-h1.white {
-	color:#FFF;
-}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+h1 {
+	font-family: 'Signika', 'Open Sans', sans-serif;
+	font-size: 44px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom:50px;
+	text-transform: uppercase;
+} }
+
 
 h2 {
 	font-family: 'Signika', 'Open Sans', sans-serif;
@@ -41,6 +59,48 @@ h5 {
 	font-weight: 600;
 }
 
+h6 {
+	font-family: 'Signika', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	padding:0 0 0 20px;
+	margin:0;
+}
+
+.white-section {
+	color:#676767;
+	background-color:#FFF;
+	padding: 40px 0;
+}
+
+.green-section {
+	color:#FFF;
+	background-color:#64c5b5;
+	padding: 40px 0;
+}
+
+.green-section a {
+	color:#fff !important;
+}
+
+.padding-tb-70 {
+	padding: 70px 0;
+}
+.padding-tb-10 {
+	padding:10px 0;
+}
+.padding-lr-40 {
+	padding: 0 40px;
+}
+
+.padding-10 {
+	padding: 10px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
 img.centered {
 	display: block;
 	margin: auto;
@@ -55,6 +115,17 @@ img.right {
 	padding-left: 20px;
 }
 
+.centered {
+	text-align: center;
+}
+
+.no-btm-padding {
+	padding-bottom:0 !important;
+}
+
+.white {
+	color:#fff;
+}
 .align-right {
 	text-align: right;
 }
@@ -92,18 +163,24 @@ a.button-white {
   border: 3px solid #FFF;
   padding: 10px 20px;
   text-align: center;
+  width: 240px;
 }
 
-a.button-white-centered {
-	color: #FFF;
-	font-family: 'Signika';
-	font-size: 23px;
-	border: 3px solid #FFF;
-	padding: 10px 20px;
-	text-align: center;
+a.button-white-small {
+  color: #FFF;
+  font-family: 'Signika';
+  font-size: 18px;
+  border: 3px solid #FFF;
+  padding: 10px 20px;
+  text-align: center;
+  	width: 170px;
+}
+
+
+a.centered {
 	margin: 10px auto;
 	display: block;
-	 width: 240px;
+
 
 }
 
@@ -369,6 +446,35 @@ h3.our-goal {
 	font-size: 32px;
 	margin:35px 0 16px 0;
 }
+.hero-soccer {
+	background: url('/images/bg-soccer.gif') no-repeat   center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#fff;
+	padding: 140px 0 50px 0;
+}
+
+.hero-soccer h1 {
+	color:#fff;
+	text-align:center;
+}
+
+.hero-soccer-small {
+	background: url('/images/bg-soccer-sm.gif') no-repeat   center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#fff;
+	padding: 100px 0 50px 0;
+}
+
+.hero-soccer-small h1 {
+	color:#fff;
+	text-align:center;
+}
 
 .hero-groups {
 	background: url('/images/bg-groups.gif') no-repeat   center center fixed;
@@ -376,6 +482,7 @@ h3.our-goal {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	color:#fff;
 	padding: 140px 0 50px 0;
 
 }
