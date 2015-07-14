@@ -26,7 +26,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id="navbar" class="navbar-collapse collapse">
  
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="groups.html">Pryvy for Groups</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Put Pryvy to work <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="groups.html"><img class="nav-icon" src="images/nav/icon-people.png" width="30">Group Communication</a></li>
+            <li><a href="pryvy-educators.html"><img class="nav-icon" src="images/nav/icon-computer.png" width="30">Digital Education</a></li>
+          </ul>
+        </li>
         <li><a href="https://itunes.apple.com/us/artist/pryvy/id793025980">Download Apps</a></li>
         <li><a href="{{ site.app_base_path }}/Account/Login">Log In</a></li>
         <li><a href="{{ site.app_base_path }}/signup" class="nav-cta">Sign up<span class="sr-only">(current)</span></a></li>
