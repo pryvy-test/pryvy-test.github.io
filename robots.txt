@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: protected-text-call.html
+Disallow: child-contacts.html
+Disallow: parent-approved-texting.html
+Disallow: kids-phone.html
+Disallow: pryvy-messages.html

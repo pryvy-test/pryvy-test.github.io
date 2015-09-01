@@ -39,7 +39,7 @@ h1.large {
 }
 
 h2 {
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: uppercase;
 	font-size: 24px;
 }
@@ -114,6 +114,11 @@ p.manifesto-text {
 	text-align: center;
 	font-size: 18px;
 	margin-top:0;
+}
+
+p {
+	font-weight: 300;
+	font-size: 15px;
 }
 
 a.nav-cta {
@@ -297,6 +302,15 @@ h1 {
 }
 .margin-b-20{
 	margin-bottom: 20px;
+}
+.margin-t-20{
+	margin-top: 20px;
+}
+.margin-t-30{
+	margin-top: 30px;
+}
+.margin-tb-20{
+	margin: 20px 0 20px 0;
 }
 .margin-r-15{
 	margin-right: 15px;
@@ -604,6 +618,12 @@ input[type="email"] {
 	background-size: auto 100%;
 }
 
+.hero-image {
+	background-size: auto 100% ;
+	padding: 140px 0 50px 0;
+	color:#fff;
+}
+
 
 
 /* Small devices (tablets, 768px and up) */
@@ -616,6 +636,7 @@ input[type="email"] {
 	background-size: cover;
 	padding: 140px 0 50px 0;
 }
+
 
 .hero-short{
 	-webkit-background-size: cover;
@@ -663,6 +684,13 @@ input[type="email"] {
 	background: url('/images/bg-blue.png') repeat-x left bottom ;
 	background-size: auto 100%;
 }
+.hero-image{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 140px 0 50px 0;
+}
 
 
 }
@@ -677,6 +705,7 @@ input[type="email"] {
 background-size: cover;
 padding: 140px 0 50px 0;
 }
+
 .hero-short{
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -721,6 +750,13 @@ padding: 120px 0 50px 0;
 .gradient-blue {
 	background: url('/images/bg-blue.png') repeat-x left bottom ;
 	background-size: auto 100%;
+}
+.hero-image{
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding: 140px 0 50px 0;
 }
 
 
@@ -781,6 +817,14 @@ padding: 120px 0 50px 0;
 .gradient-blue {
 	background: url('/images/bg-blue.png') repeat-x left bottom ;
 	background-size: auto 100%;
+}
+
+.hero-image{
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding: 140px 0 50px 0;
 }
 
 }

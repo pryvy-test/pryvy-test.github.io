@@ -4,7 +4,6 @@ layout: default
 <div class="container-fluid hero-short gradient-blue no-btm-padding">
   <div class="container">
     <div class="row">
-      <div class="col-lg-1"></div>
       <!-- XS SIZE -->
       <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
         <h1 class="centered margin-b-20">Pryvy Messages</h1>
@@ -15,22 +14,30 @@ layout: default
           
         </div>
       </div>
-      <!-- SM, MD, LG SIZE -->
-      <div class="col-lg-5 col-md-6 col-sm-7 hidden-xs">
+      <!-- SM SIZE -->
+      <div class="col-sm-7 hidden-xs hidden-md hidden-lg">
         <h1 class="left padding-top-10p margin-zero">Pryvy Messages</h1>
         <p class="large">Send text, picture or voice messages <br/>to friends, family and groups.</p>
         <div><p class="small padding-tb-10">Available on</p></div>
         <a class="button-white-small margin-r-15"  href="{{ site.app_base_path }}/signup">iPhone/iPod/iPad</a>
-        
+      </div>
+      <!-- MD, LG SIZE -->
+      <div class="col-lg-6 col-md-8 hidden-sm hidden-xs">
+        <h1 class="left large padding-top-10p margin-zero">Pryvy Messages</h1>
+        <p class="large">Send text, picture or voice messages <br/>to friends, family and groups.</p>
+        <div><p class="small padding-tb-10">Available on</p></div>
+        <a class="button-white-small margin-r-15"  href="{{ site.app_base_path }}/signup">iPhone/iPod/iPad</a>
       </div>
       <!-- ALL SIZES -->
-      <div class="col-lg-6 col-md-6 col-sm-5 col-xs-12"> 
+      <div class="col-lg-6 col-md-4 col-sm-5 col-xs-12"> 
         <!-- XS SIZE -->
         <img class="centered hidden-sm hidden-md hidden-lg" src="{{site.image_path}}/messages-landing/messages-side.png" width="40%">
         <!-- SM SIZE -->
         <img class="centered hidden-xs hidden-md hidden-lg" src="{{site.image_path}}/messages-landing/messages-side.png" width="60%">
-        <!-- MD, LG SIZE -->
-        <img class="centered hidden-xs hidden-sm" src="{{site.image_path}}/messages-landing/messages-side.png" width="45%">
+        <!-- MD SIZE -->
+        <img class="centered hidden-xs hidden-sm hidden-lg" src="{{site.image_path}}/messages-landing/messages-side.png" width="65%">
+        <!-- LG SIZE -->
+        <img class="centered hidden-xs hidden-sm hidden-md" src="{{site.image_path}}/messages-landing/messages-side.png" width="45%">
       </div>
     </div>
   </div>
