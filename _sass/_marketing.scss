@@ -3,7 +3,7 @@ body {
 	font-weight: 400;
 }
 
-h2, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
 	font-family: 'Lato', 'Open Sans', sans-serif;
 }
 
@@ -42,6 +42,7 @@ h2 {
 	font-weight: 400;
 	text-transform: uppercase;
 	font-size: 24px;
+	font-family:'Quicksand';
 }
 h3 {
 	text-align: center;
@@ -159,15 +160,31 @@ a.button-white {
 }
 
 a.button-white-small {
-  color: #FFF;
-  font-family: 'Lato';
+  color: #67ACDE;
+  font-family: 'Quicksand';
   font-size: 18px;
-  border: 1.5px solid #FFF;
+  padding: 15px 25px;
+  text-align: center;
+  width: 170px;
+  border-radius: 6px;
+  font-weight:600;
+  background-color:#fff;
+  text-transform:uppercase;
+
+}
+
+a.button-white-x-small {
+  color: #67ACDE;
+  font-family: 'Lato';
+  font-size: 16px;
   padding: 10px 20px;
   text-align: center;
   width: 170px;
   border-radius: 6px;
-  font-weight:300;
+  font-weight:600;
+  background-color:#fff;
+  text-transform:none;
+
 }
 
 a.centered {
@@ -266,7 +283,9 @@ h1 {
 .padding-top-50 {
 	padding: 50px 0 0 0;
 }
-
+.padding-top-30 {
+	padding: 30px 0 0 0;
+}
 .padding-top-10p {
 	padding: 10% 0 0 0;
 }
