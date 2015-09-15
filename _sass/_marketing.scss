@@ -3,6 +3,12 @@ body {
 	font-weight: 400;
 }
 
+ol {
+	list-style:inside;
+	font-size:18px;
+	font-weight:300;
+}
+
 h3, h4, h5, h6 {
 	font-family: 'Lato', 'Open Sans', sans-serif;
 }
@@ -52,8 +58,9 @@ h3 {
 }
 
 h4 {
-	font-weight: 300;
-	font-size: 24px;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform:uppercase;
 }
 
 h5 {
@@ -352,6 +359,12 @@ h1 {
 }
 .left {
 	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.strong {
+	font-weight: 600;
 }
 .no-btm-padding {
 	padding-bottom:0 !important;
