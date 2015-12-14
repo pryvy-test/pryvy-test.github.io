@@ -1,0 +1,164 @@
+
+/* Large devices (large desktops, 1200px and up) */
+@media(min-width:1200px) { 
+
+
+/* -----------  TEXT STYLES -----------  */
+
+
+p.manifesto-text { 
+	padding: 0px 100px 50px 100px;
+	font-size: 24px;
+	margin-top:0;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom:50px;
+	text-transform: uppercase;
+	line-height: 1.4;
+}
+
+a.circle-active {
+	width: 130px;
+	height: 130px;
+	font-size:16px;
+	padding-top:43px;
+}
+
+a.circle {
+	width: 130px;
+	height: 130px;
+	font-size:16px;
+	padding-top:43px;
+}
+
+.centered-xs {
+	text-align:left;
+}
+
+.centered-xs-sm {
+	text-align:left;
+		padding-left: 0;
+	padding-right:0;
+}
+
+.margin-top-30-xs-sm {
+	margin-top:0;
+}
+
+a.white-link {
+	color: #FFF;
+  font-family: 'Quicksand';
+  font-size: 22px;
+  text-align: center;
+  font-weight:600;
+  text-transform:uppercase;
+}
+
+.padding-top-5p-md-lg {
+	padding-top:5%;
+}
+
+.right-lg {
+	text-align:right;
+}
+
+img.full-width-md {
+	width:80%;
+}
+
+img.right-lg {
+	float:right;
+	padding-left: 20px;
+}
+
+img.centered-xs {
+	display: inline;
+	margin: none;
+}
+
+/*  -----------  HERO  -----------  */
+
+.hero{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 140px 0 50px 0;
+}
+
+.hero-short{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 120px 0 50px 0;
+}
+
+.default {
+	background: url('/images/bg.jpg') no-repeat   center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg.jpg', sizingMethod='scale')";
+}
+
+.school {
+	background: url('/images/bg-school.jpg')  no-repeat   center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-school.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-school.jpg', sizingMethod='scale')";
+}
+
+.clouds {
+	background: url('/images/bg-clouds.jpg')  no-repeat   center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-clouds.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-clouds.jpg', sizingMethod='scale')";
+	background-size:cover;
+}
+
+.gradient {
+	background: url('/images/bg-groups.gif')  no-repeat   center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-groups.gif', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-groups.gif', sizingMethod='scale')";
+}
+
+.gradient-red {
+	background: url('/images/bg-red.png') repeat-x left bottom ;
+	background-size: auto 100%;
+}
+
+.gradient-blue {
+	background: url('/images/bg-blue.png') repeat-x left bottom ;
+	background-size: auto 100%;
+}
+
+.hero-image{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 140px 0 50px 0;
+}
+
+.how-it-works-groups h2 { 
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+/*   -----------  FLEX SYSTEM   -----------  */
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	order: 1;
+}
+
+.flex-item-2 {
+	order:2;
+}
+
+}
