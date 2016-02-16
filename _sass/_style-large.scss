@@ -13,8 +13,8 @@ p.manifesto-text {
 }
 
 h1 {
-	font-size: 45px;
-	font-weight: 300;
+	font-size: 55px;
+	font-weight: 800;
 	text-align: center;
 	margin-bottom:50px;
 	text-transform: uppercase;
@@ -60,6 +60,10 @@ a.white-link {
 
 .padding-top-5p-md-lg {
 	padding-top:5%;
+}
+
+.padding-top-60-lg {
+	padding-top:60px;
 }
 
 .right-lg {
@@ -114,6 +118,13 @@ img.centered-xs {
 	background: url('/images/bg-clouds.jpg')  no-repeat   center center fixed;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-clouds.jpg', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-clouds.jpg', sizingMethod='scale')";
+	background-size:cover;
+}
+
+.space {
+	background: url('/images/bg-space.gif')  no-repeat   center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-space.gif', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-space.gif', sizingMethod='scale')";
 	background-size:cover;
 }
 

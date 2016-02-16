@@ -58,6 +58,11 @@ img.centered-xs {
 	margin: none;
 }
 
+.padding-top-60-lg {
+	padding-top:60px;
+}
+
+
 
 
 /*  -----------  HERO  -----------  */
@@ -99,6 +104,14 @@ img.centered-xs {
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-school.jpg', sizingMethod='scale')";
 	background-size:cover;
 }
+
+.space {
+	background: url('/images/bg-space.gif')  no-repeat   center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-space.gif', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg-space.gif', sizingMethod='scale')";
+	background-size:cover;
+}
+
 
 .gradient {
 	background: url('/images/bg-groups.gif')  no-repeat   center center fixed;
